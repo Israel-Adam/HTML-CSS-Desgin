@@ -1,0 +1,126 @@
+.container{
+    background-color: black;
+    width: 60vw;
+    height: 70vh;
+    border: 2px solid rgb(212, 213, 223);
+    box-shadow: outset 0 0 10px rgb(255, 255, 255);
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 39, 39);
+                font-family: Arial, Helvetica, sans-serif;}
+.nav-bar{
+    height: 80vh;
+    border-radius: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(24, 21, 21);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly
+background-color: black;
+    align-items: center;
+    border-radius: 10px;  
+
+}
+.logo{
+padding: 12px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo span{
+    color: rgb(9, 6, 233);
+    font-size: 16px;
+    font-weight: 800;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px;justify-content: space-evenly;
+    gap: 24px;
+padding-right: 40px;
+}
+.navbar ul li{
+padding: 12px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 40px;
+    justify-content: ;
+    align-items: center;
+}
+
+.image{
+    width: 80%;
+}
+.image img{                             
+    width: 320px;
+height: 320px;
+border-radius: 50%;
+object-fit: fill;}
+.herop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    color: white;
+    align-items: center;
+}
+/* .herop p{
+   width: 90%;
+} */
+.herop button{
+    width: 170px;
+margin-right: 100px;
+    background-color: rgb(29, 212, 23);
+    color: white;
+    font-size: 20px;
+  text-align: center;
+  margin-bottom: auto;
+}
+P{
+    margin-left: 100px;
+}
+.brands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+    color: white;
+ margin-left: 100px;
+
+}
+#btn2{
+    width: 170px;
+margin-left: 60px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-size: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 80px;
+}
+#btn1{
+    margin-left: -950px;
+}
